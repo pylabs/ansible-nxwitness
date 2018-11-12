@@ -1,4 +1,5 @@
 galaxy_info:
+  role_name: nxwitness
   author: William Wu
   description: Install nx witness package
   company: PyLabs
