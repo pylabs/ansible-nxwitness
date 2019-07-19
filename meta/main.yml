@@ -1,17 +1,18 @@
 galaxy_info:
   role_name: nxwitness
   author: William Wu
-  description: Install nx witness package
+  description: Install NX Witness package
   company: PyLabs
   license: MIT
   min_ansible_version: 2.0
   platforms:
-  - name: Debian
+  - name: Ubuntu
     versions:
-    - stretch
+    - Xenial Xerus
+    - 16.04
   galaxy_tags:
     - nx
     - vmx
-    - debian
+    - ubuntu
 dependencies:
   - pylabs.sysbase
