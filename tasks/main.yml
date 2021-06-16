@@ -1,7 +1,7 @@
 ---
 - block:
   - name: install nx witness package
-    apt:
+    ansible.builtin.apt:
       deb: "http://updates.networkoptix.com/default_cn/28738/linux/nxwitness_cn-server-3.2.0.28738-linux64.deb"
   tags:
     - nxwitness
